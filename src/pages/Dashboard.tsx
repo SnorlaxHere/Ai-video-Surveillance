@@ -4,7 +4,7 @@ import AnimalCard from "@/components/AnimalCard";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Camera, Clock, Dog, Cat, Deer } from "lucide-react";
+import { Camera, Clock, Dog, Cat, PawPrint } from "lucide-react";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -44,7 +44,7 @@ const Dashboard = () => {
     { 
       title: "Deer Sightings", 
       value: "12", 
-      icon: <Deer className="h-4 w-4" />,
+      icon: <PawPrint className="h-4 w-4" />,
       color: "bg-amber-100 text-amber-700"
     },
     { 
